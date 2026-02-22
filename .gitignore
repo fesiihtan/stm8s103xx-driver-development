@@ -1,55 +1,71 @@
-# Prerequisites
-*.d
+# =========================
+# Build folders
+# =========================
+Debug/
+Release/
+build/
+Build/
+output/
+out/
 
-# Object files
+# =========================
+# Object & binary files
+# =========================
 *.o
-*.ko
 *.obj
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
+*.bin
+*.map
+*.lst
+*.s19
 
-# Debug files
-*.dSYM/
+# =========================
+# Dependency / temp files
+# =========================
+*.d
 *.su
-*.idb
-*.pdb
+*.tmp
+*.log
+*.ninja_log
+*.ninja_deps
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# =========================
+# IDE files
+# =========================
 
-# debug information files
-*.dwo
+# VS Code
+.vscode/
+
+# STM8 STVD
+*.dep
+*.pbi
+*.lkf
+
+# IAR
+*.ewp
+*.eww
+*.ewd
+*.ewt
+
+# Keil
+*.uvproj*
+*.uvopt*
+*.bak
+
+# Eclipse / CubeIDE style
+.metadata/
+.settings/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# =========================
+# Backup files
+# =========================
+*~
+*.bak
