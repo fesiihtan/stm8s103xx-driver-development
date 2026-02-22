@@ -68,4 +68,8 @@ desktop.ini
 # Backup files
 # =========================
 *~
+<<<<<<< HEAD
 *.bak
+=======
+*.bak
+>>>>>>> d29662fe63c1925a1f290e6d1d7113501baba14b
