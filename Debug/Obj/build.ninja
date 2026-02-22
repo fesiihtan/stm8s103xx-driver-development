@@ -20,8 +20,9 @@ rule browsedata
 
 
 #Build steps
+build stm8s103xx_rcc_driver.pbi : index stm8s103xx_rcc_driver.xcl
 build main.pbi : index main.xcl
-build stm8s103xx_drivers.pbd : link main.pbi
+build stm8s103xx_drivers.pbd : link stm8s103xx_rcc_driver.pbi main.pbi
 build stm8s103xx_drivers.pbw : browsedata stm8s103xx_drivers.pbd
 
 

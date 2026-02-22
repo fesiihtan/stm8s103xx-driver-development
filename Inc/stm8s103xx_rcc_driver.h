@@ -1,0 +1,8 @@
+#ifndef STM8S103XX_RCC_DRIVER_H_
+#define STM8S103XX_RCC_DRIVER_H_
+
+
+#endif /* STM8S103XX_RCC_DRIVER_H_ */
+
+
+
