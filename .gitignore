@@ -1,0 +1,71 @@
+# =========================
+# Build folders
+# =========================
+Debug/
+Release/
+build/
+Build/
+output/
+out/
+
+# =========================
+# Object & binary files
+# =========================
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.s19
+
+# =========================
+# Dependency / temp files
+# =========================
+*.d
+*.su
+*.tmp
+*.log
+*.ninja_log
+*.ninja_deps
+
+# =========================
+# IDE files
+# =========================
+
+# VS Code
+.vscode/
+
+# STM8 STVD
+*.dep
+*.pbi
+*.lkf
+
+# IAR
+*.ewp
+*.eww
+*.ewd
+*.ewt
+
+# Keil
+*.uvproj*
+*.uvopt*
+*.bak
+
+# Eclipse / CubeIDE style
+.metadata/
+.settings/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# =========================
+# Backup files
+# =========================
+*~
+*.bak
